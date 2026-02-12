@@ -1,15 +1,31 @@
 @charset "UTF-8";
-<style>
+*
+    {
+    background-color: #e7f2e4;
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+    }
 body
-{
-    background-color: aquamarine;
-    font-family: Montserrat, Montserrat Black, Montserrat, helvetica;
-    font-size: 20px;
+    {
+    background: #e7f2e4;
+    }
+main
+    {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #11F1E1;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    }
+h1  {
+    color: #F17405;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+    }
+h2  {
+    color: #F29105;
 }
-h1
-{
-    color:black;
+p {
+    text-align: justify;
 }
-
-
-</style>
